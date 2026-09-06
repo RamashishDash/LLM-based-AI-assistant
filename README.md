@@ -48,6 +48,24 @@ You: Explain what a transistor is.
 Assistant: A transistor is a semiconductor device used
 to amplify or switch electronic signals...
 ```
+llm-ai-assistant/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── src/
+│   ├── llm.py
+│   ├── prompts.py
+│   ├── memory.py
+│   └── rag.py
+│
+├── data/
+│   └── documents/
+│
+└── tests/
+    └── test_llm.py
 
 ## Project Goals
 
