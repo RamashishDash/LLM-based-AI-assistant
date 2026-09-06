@@ -48,6 +48,10 @@ You: Explain what a transistor is.
 Assistant: A transistor is a semiconductor device used
 to amplify or switch electronic signals...
 ```
+
+## Project Structure
+
+```text
 llm-ai-assistant/
 │
 ├── app.py
@@ -66,6 +70,9 @@ llm-ai-assistant/
 │
 └── tests/
     └── test_llm.py
+```
+
+> **Note:** Some components in the project structure, such as memory and RAG, are planned features and may be implemented later.
 
 ## Project Goals
 
